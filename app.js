@@ -29,7 +29,7 @@ const reviews = [
     },
     {
       id: 4,
-      name: "Solomon anderson",
+      name: "Solomon Achugwoh",
       job: "web developer",
       img:
         "./assets/solo.jpg",
