@@ -139,12 +139,12 @@ main{
   margin-bottom: 4rem;
   font-family: 'Roboto', sans-serif;
 }
-.hero-service-desc{
+.hero-service-desc-about{
   font-weight: bold;
   position: absolute;
   z-index: 2;
   text-align: center;
-  top: 30%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%);
   margin-bottom: 4rem;
@@ -201,19 +201,30 @@ main{
     width: 100%;
 }
 
-.sec-we-are{
+.sec-we-are-about{
   display: flex;
+  padding-top: 7rem;
+  color: white;
 }
-.who-we-are{
+.platform{
+  padding-bottom: 4rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.who-we-are-about{
 /*   background-color: var(--color-primary-text);
  */  color: #000;
   border-radius: 5px;
   font-size: 1.5rem;
+  line-height: 2rem;
+  color: white;
+  text-align: justify;
 /*   padding: 1.5rem;
   margin-bottom: 2rem; */ 
 /*   width: 100%;
  */  opacity: 0;
- margin: 0 auto;
+ margin: 0 20%;
   animation: fadeup 1s 1s ease forwards;
   }
 @keyframes fadeup {
@@ -226,6 +237,9 @@ main{
 }
  .offering{
   text-align: center;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  font-size: 2rem;
  }
  .sprut-desc{
   margin-top: 1rem;
@@ -249,24 +263,76 @@ main{
   left: 0px;
 }
 
+/* TARGETS STARTS */
+.target{
+  display: flex;
+  justify-content: space-between;
+  gap: 0rem;
+  color: white;
+  padding-top: 7rem;
+}
+
+.target-text-head{
+  color: white;
+}
+.target-about{
+   width: 75%;
+/*    flex-grow: 2;
+ */   color: white;
+   }
+  .target-text-about{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: justify;
+    padding-bottom: 2rem;
+  /*   color: hsl(210, 22%, 49%);
+   */}
+
+   .text-analytics{
+    font-size: 1.5rem;
+    line-height: 2rem;
+   }
+
+   .target-aim{
+    font-size: 2rem;
+    margin: 2rem 0 0 0;
+    color: white;
+    padding-bottom: 2rem;
+    }
+
+    .text-to-right{
+      text-align: right;
+    }
+   /* TARGETS ENDS */
+
 /* THIRD SECTION STARTS */
-.benefits {
+.benefits-about {
     display: flex;
     justify-content: space-between;
     gap: 3rem;
     margin-bottom: 2rem;
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 
-.talent{
-/*   width: 70%;
- */
- flex-grow: 2;
- }
-.talent-text{
+.talents{
+   width: 60%;
+ 
+/*  flex-grow: 2;
+ */ }
+.talent-text-about{
+  padding-top: 1rem;
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
+  text-align: justify;
 /*   color: hsl(210, 22%, 49%);
  */}
+ .talent-text{
+  font-size: 1.5rem;
+ }
+
 .eligibility{
   color: black;
 }
@@ -279,12 +345,12 @@ font-size: 2rem;
 margin: 2rem 0 0 0;
 color: var(--color-secondary-text);
 }
-.talent-img {
-  /* width: 100%;
-  height: 100%; */
+.talent-img-about {
   margin: 0 auto;
-  flex-grow: 5;
-
+  padding-bottom: 2rem;
+}
+.img-about{
+  height: 200px;
 }
 
 /* .talent-img img {
@@ -307,6 +373,9 @@ color: var(--color-secondary-text);
   border:0;
 }
 
+.ter{
+  background-image: linear-gradient(180deg, #00A15D  0%,  #FF8A65 100%);  
+}
 .article-btn:hover{
   background-color: transparent;
   border: 2px solid var(--color-primary-text);
@@ -502,7 +571,7 @@ color: var(--color-secondary-text);
 
 .service-desc h2 {
 /*   color: var(--color-primary-text);
- */  font-size: 1.5rem;
+ */  font-size: 3rem;
   text-align: center;
   margin: 0px auto;
 }
@@ -750,6 +819,106 @@ font-weight: 700;
   text-align: center;
 }
 
+
+/* CENTER FLOW */
+.center-flow{
+  color: white;
+  padding-top: 5rem;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 0 20%;
+}
+.apply-center{
+  color: white;
+  padding-top: 3rem;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 0 20%;
+}
+
+.apply-step{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+  margin: 0 10%;
+  padding-bottom: 3rem;
+}
+
+.match-spurt{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.green-text{
+  color: var(--color-secondary-text);
+}
+.cv-text{
+  color: white;
+}
+.need-do{
+  padding-top: 5rem;
+}
+
+.need-do h2{
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.fill-app{
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.proverbial-journey{
+  padding: 2rem 0;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.ready-turbo{
+  font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+padding: 2rem 0;
+padding-bottom: 6rem;
+
+}
+
+.msg-founder{
+  padding-bottom: 3rem;
+}
+
+
+.founder-img img{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+     margin: 0 auto;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+  }
+.founder-text{
+  padding-bottom: 2rem;
+}
+.founder-name{
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 36px;
+}
+  .founder-job-role{
+    font-size: 1.2rem;
+    padding-bottom: 5rem;
+  }
+
 /* FOOTER ENDS */
 
 /* mobile-screens */
@@ -817,15 +986,38 @@ font-weight: 700;
 .application_img img{
   width: 100%;
 }
-  .benefits {
+  .benefits-about {
     display: flex;
     flex-direction: column;
+  }
+  .target {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0rem;
   }
   .duration{
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
+  .talents{
+    width: 100%;
+  
+ /*  flex-grow: 2;
+  */ }
+  .who-we-are-about {
+    margin: 0 0%;
+  }
+
+  .platform{
+    font-size: 1.25rem;
+  }
+
+  .target-about {
+    width: 100%;
+  }
+
   .service-trust{
     margin-bottom: 2rem;
   }
@@ -861,4 +1053,24 @@ font-weight: 700;
   .sm-handles a {
     padding: 0 0rem
   }
+
+  /* CENTER FLOW */
+.center-flow{
+  color: white;
+  padding-top: 5rem;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 36px;
+  margin: 0 0;
+}
+.apply-center{
+  color: white;
+  padding-top: 3rem;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 36px;
+  margin: 0 0;
+}
 }
