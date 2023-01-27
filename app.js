@@ -7,7 +7,7 @@ const reviews = [
       img:
         "./assets/ada.jpg",
       text:
-        "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
+        "Particularly in light of recent times, STEP helped better prepare me to make the switch to tech. I feel comfortable in the place that I am after taking the training and look forward to integrating my new learning experiences.",
     },
     {
       id: 2,
@@ -16,7 +16,7 @@ const reviews = [
       img:
         "./assets/hannah.jpg",
       text:
-        "Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.",
+        "Without a doubt, the COVID-19 pandemic has profoundly affected the world we live in. While there are some things that will fall through the cracks, one of those things should not be the education of our future. I found with the experience I received from STEP educative as it uniquely positioned to deal with this unprecedented situation.",
     },
     {
       id: 3,
@@ -25,7 +25,7 @@ const reviews = [
       img:
         "./assets/David.jpg",
       text:
-        "Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.",
+        "At STEP, I had a phenomenal time, and I always give it my highest recommendation. I couldn’t afford to start at a large, but at STEP, I received a the best training and I had a terrific educational experience.",
     },
     {
       id: 4,
@@ -34,7 +34,7 @@ const reviews = [
       img:
         "./assets/solo.jpg",
       text:
-        "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ",
+        "When I talk to friends who began their tech journey, I see that STEP has given me the same quality of education but with much smaller class sizes. And I like the idea that I’m not drowning in debt. STEP is a great place to get your foundation because it’s a quality education for an affordable price. ",
     },
   ];
   
