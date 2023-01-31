@@ -16,16 +16,15 @@
     --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
-.navbar{
+ /* .navbar{
   font-family: 'Poppins', sans-serif;
     background-color: white;
     display: flex;
     justify-content: space-between;
     padding: 10px 2%;
-/*     width: 100vw;
- */    align-items: center;
+ align-items: center;
     color: black;
-} 
+}  
  a{
     text-decoration: none;
     color: var(--color-primary-text);
@@ -35,9 +34,9 @@
     justify-content: space-between;
     gap: 2rem;
     align-items: center;
-  }
+  } 
 
-  .nav-menu li{
+   .nav-menu li{
     list-style: none;
     font-size: 1.5rem;
     font-weight: bold;
@@ -101,7 +100,7 @@
     .navbar .button a {
         padding: 10px 15px;
         margin: 5px 0;
-    }
+    } 
     .button {
         background: var(--color-primary-text);
         border: 1px solid var(--color-primary-text) ;
@@ -118,7 +117,7 @@
         color: var(--color-primary-text);
         cursor: pointer;
     }
-
+ 
 main{
     width: 85%;
     margin: 0 auto;
@@ -149,14 +148,13 @@ main{
   transform: translate(-50%);
   margin-bottom: 4rem;
   color: #fff;
-}
+} 
 .hero-desc{
 /*   color: var(--color-primary-text);
    font-size: 2rem; */
  margin: 1rem 0;
 }
-/*  */
-
+/* 
 .spurt_hero{
   color: var(--color-primary-text);
 }
@@ -187,11 +185,10 @@ main{
   border: 2px solid white;
 }
 .big-hero{
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 900;
 }
 
-/* //////////////////// */
 .hero-img{
     height: 100%;
     margin: 4rem 0;
@@ -199,16 +196,16 @@ main{
 .hero-img img{
     height: 100%;
     width: 100%;
-}
+} */
 
 .sec-we-are-about{
   display: flex;
-  padding-top: 7rem;
-  color: white;
+/*   padding-top: 7rem;
+ */  color: white;
 }
 .platform{
   padding-bottom: 4rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 2rem;
 }
 
@@ -216,7 +213,7 @@ main{
 /*   background-color: var(--color-primary-text);
  */  color: #000;
   border-radius: 5px;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 2rem;
   color: white;
   text-align: justify;
@@ -239,17 +236,17 @@ main{
   text-align: center;
   padding-bottom: 1rem;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.25rem;
  }
  .sprut-desc{
   margin-top: 1rem;
-  line-height: 2rem;
+  line-height: 1.5rem;
   padding: 0 1.5rem 1rem;
   font-size: 1.25rem;
 }
 
 .sprut{
-  font-size: 2rem;
+  font-size: 1.25rem;
 /*   text-decoration: underline;
  */  position: relative;
 }
@@ -269,8 +266,8 @@ main{
   justify-content: space-between;
   gap: 0rem;
   color: white;
-  padding-top: 7rem;
-}
+/*   padding-top: 7rem;
+ */}
 
 .target-text-head{
   color: white;
@@ -281,16 +278,16 @@ main{
  */   color: white;
    }
   .target-text-about{
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
     text-align: justify;
     padding-bottom: 2rem;
   /*   color: hsl(210, 22%, 49%);
    */}
 
    .text-analytics{
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
    }
 
    .target-aim{
@@ -324,14 +321,14 @@ main{
  */ }
 .talent-text-about{
   padding-top: 1rem;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   margin-bottom: 1.5rem;
   text-align: justify;
 /*   color: hsl(210, 22%, 49%);
  */}
  .talent-text{
-  font-size: 1.5rem;
+  font-size: 1.25rem;
  }
 
 .eligibility{
@@ -827,8 +824,8 @@ font-weight: 700;
   padding-top: 5rem;
   text-align: center;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   margin: 0 20%;
 }
 .apply-center{
@@ -879,14 +876,14 @@ font-weight: 700;
 
 .proverbial-journey{
   padding: 2rem 0;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
 }
 
 .ready-turbo{
   font-weight: 700;
-font-size: 24px;
-line-height: 36px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
 text-align: center;
 padding: 2rem 0;
 padding-bottom: 6rem;
@@ -913,7 +910,7 @@ padding-bottom: 6rem;
 .founder-name{
   font-weight: 400;
   font-size: 1.2rem;
-  line-height: 36px;
+  line-height: 1.5rem;
 }
   .founder-job-role{
     font-size: 1.2rem;
