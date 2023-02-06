@@ -128,7 +128,7 @@ main{
 /* HERO SECTION */
 .hero-service{
   min-height: 100vh;
-  background-color: var(--color-primary-text);
+  background-color: vascr(--color-primary-text);
   padding: 1.5rem;
   background-image: url(./assets/hero.png);
   filter: blur(3px) brightness(0.7);
@@ -162,10 +162,14 @@ main{
 
 .screwed{
   background-color: #DCEEE6;
+  position: relative;
 }
 .sec-we-are-about{
   display: flex;
+ 
 }
+
+
 .platform{
   padding-bottom: 4rem;
   font-size: 1.25rem;
@@ -194,12 +198,33 @@ main{
   opacity: 1;
   }
 }
+
+.target-about-section{
+  gap: 2rem;
+  display: flex;
+  width: 85%;
+    margin: 0 auto;
+    /* justify-content: space-between; */
+}
  .offering-about{
   text-align: center;
   padding-bottom: 1rem;
   font-weight: bold;
   font-size: 1.25rem;
+  padding-top: 2rem;
  }
+ .radius-target {
+  border-radius: 0px 200px 0px 0px;
+}
+ .radius-what-we-do {
+  border-radius: 200px 0px 0px 0px;
+}
+ .radius-eligibility {
+  border-radius: 0px 0px 200px 0px;
+}
+.faded-color-section{
+  background: #DCEEE6;
+}
  .sprut-desc{
   margin-top: 1rem;
   line-height: 1.5rem;
@@ -305,10 +330,17 @@ color: var(--color-secondary-text);
 .talent-img-about {
   margin: 0 auto;
   padding-bottom: 2rem;
+  width: 30%;
+    max-height: 626px;
 }
-.img-about{
+.img-about-spurt{
   height: 300px;
   padding-top: 3rem;
+}
+.img-about{
+  height: 100%;
+  padding-top: 3rem;
+  width: 100%;
 }
 
 /* .talent-img img {
@@ -884,7 +916,28 @@ padding-bottom: 6rem;
     flex-direction: column;
   }
   .img-about{
-padding-top: 0rem;  }
+  padding-top: 3rem;  
+}
+  .img-about-spurt{
+  padding-top: 0rem;  
+}
+.radius-what-we-do {
+  border-radius: 0px 0px 0px 0px;
+}
+.radius-eligibility{
+  border-radius: 0px 0px 0px 0px;
+}
+.radius-target{
+  border-radius: 0px 0px 0px 0px;
+}
+.talent-img-about {
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  width: 100%;
+  max-height: 626px;
+  display: flex;
+  justify-content: center;
+}
   .target {
     display: flex;
     flex-direction: column;
@@ -903,6 +956,7 @@ padding-top: 0rem;  }
   */ }
   .who-we-are-about {
     margin: 0 0%;
+    padding: 0 1rem;
   }
 
   .platform{
