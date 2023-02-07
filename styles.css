@@ -25,6 +25,7 @@
 /*     width: 100vw;
  */    align-items: center;
     color: black;
+   
 } 
  a{
     text-decoration: none;
@@ -47,7 +48,11 @@
     list-style: none;
     font-weight: bold;
   }
-  
+  .logo-container{
+    background-color: #fff;
+      width: 100px;
+      height: 30px;  
+  }
   .nav-branding img{
     width: 100px;
     height: 30px;
@@ -763,6 +768,7 @@ font-size: 1rem;
 .apply-text{
   font-size: 2rem;
   padding-bottom: 2rem;
+  text-align: center;
 }
 .apply a strong{
   color: var(--color-primary-text);
@@ -785,6 +791,8 @@ box-shadow: var(--dark-shadow);
   background-position: center;
  color: #fff;
  margin-top: 5rem;
+ display: flex;
+  justify-content: center;
 }
 
 

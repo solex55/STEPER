@@ -128,7 +128,7 @@ main{
 /* HERO SECTION */
 .hero-service{
   min-height: 100vh;
-  background-color: vascr(--color-primary-text);
+  background-color: var(--color-primary-text);
   padding: 1.5rem;
   background-image: url(./assets/hero.png);
   filter: blur(3px) brightness(0.7);
@@ -255,8 +255,6 @@ main{
 /*   padding-top: 7rem;
  */}
 
-.target-text-head{
-}
 .target-about{
    width: 75%;
 /*    flex-grow: 2;
@@ -376,10 +374,7 @@ color: var(--color-secondary-text);
   place-items: center;
 }
 
-.title {
-  text-align: center;
-/*   margin-bottom: 2rem;
- */}
+
 .title h2{
   letter-spacing: var(--spacing);
   text-transform: capitalize;
@@ -495,7 +490,7 @@ color: var(--color-secondary-text);
 
 /* FIFTH SECTION STARTS*/
 .questions {
-  background: var(--color-primary-text);
+  background: transparent;
 }
 .question {
   background: var(--color-primary-text);
@@ -915,8 +910,13 @@ padding-bottom: 6rem;
     display: flex;
     flex-direction: column;
   }
+
+.img-about {
+    height: auto;
+}
+
   .img-about{
-  padding-top: 3rem;  
+  padding-top: 0rem;  
 }
   .img-about-spurt{
   padding-top: 0rem;  
@@ -948,6 +948,11 @@ padding-bottom: 6rem;
     flex-direction: column;
     align-items: center;
   }
+  .target-about-section{
+    gap: 0rem;
+    display: flex;
+    flex-direction: column;
+  }
 
   .talents{
     width: 100%;
@@ -965,6 +970,7 @@ padding-bottom: 6rem;
 
   .target-about {
     width: 100%;
+    order: 2;
   }
 
   .service-trust{
