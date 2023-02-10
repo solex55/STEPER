@@ -150,6 +150,9 @@ background: linear-gradient(127.85deg, #009758 8.53%, #FF785A 93.53%);
 border-radius: 0px 0px 0px 300px;
 display: flex;
 }
+.white-text{
+  color: #fff;
+}
 
 .hero-service{
  /*  min-height: 100vh;
@@ -1077,7 +1080,9 @@ footer a:hover{
 }
 .hero-text{
   top: 10%;
+  width: 80%;
 }
+
 .hero-service-desc{
   display: none;
 }
