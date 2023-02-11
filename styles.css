@@ -18,14 +18,20 @@
 }
 .navbar{
   font-family: 'Poppins', sans-serif;
-    background-color: transparent;
-    display: flex;
+/*     background-color: transparent;
+ */    display: flex;
     justify-content: space-between;
     padding: 10px 2%;
 /*     width: 100vw;
  */    align-items: center;
     color: black;
-   
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 7%;
+    width: 85%; 
+    z-index: 1000;
 } 
  a{
     text-decoration: none;
@@ -50,8 +56,22 @@
   }
   .logo-container{
     background-color: #fff;
-      width: 100px;
-      height: 30px;  
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 1rem;  
+      border-radius: 100px;   
+      box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.23); 
+  }
+  .link-flex{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    align-items: center;
+  }
+  .link-flex li:hover{
+    cursor: pointer;
+    text-decoration: underline;
   }
   .nav-branding img{
     width: 100px;
@@ -105,10 +125,7 @@
         font-weight: bold;
     }
 
-    .navbar{
-      display: flex;
-      justify-content: space-between;
-    }
+    
 
     .navbar .button a {
         padding: 10px 15px;
@@ -328,7 +345,7 @@ font-weight: 700;
 /* THIRD SECTION STARTS */
 .benefits {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 3rem;
     margin-bottom: 2rem;
     width: 85%;
@@ -336,9 +353,9 @@ font-weight: 700;
 }
 
 .talent{
-/*   width: 70%;
- */
- flex-grow: 2;
+
+/*  flex-grow: 2;
+ */ width: 50%;
  }
 .talent-text{
   font-size: 1rem;
@@ -358,16 +375,22 @@ font-weight: 900;
   /* width: 100%;
   height: 100%; */
   margin: 0 auto;
-  flex-grow: 5;
-
+/*   flex-grow: 5;
+ */
+ width: 50%;
 }
 
-/* .talent-img img {
+ .talent-img img {
   width: 100%;
-  height: 300px;
+  height: 100%;
   min-height: 200px;
-} */
+  border-radius: 0px 0px 0px 100px;
+} 
 
+/* .talent-img img{
+  width: 100%;
+  height: 100%;
+} */
 .article-btn {
   width: 160px;
   height: 45px;
@@ -1006,6 +1029,14 @@ footer a:hover{
 
 /* mobile-screens */
 @media screen and (max-width: 768px) {    
+  .navbar{
+    position: relative;
+    margin: 0 2%;
+    width: 95%;
+  }
+  .link-flex{
+    display: none;
+  }
   .nav-branding img{
     width: 100px;
     height: 30px;
@@ -1036,7 +1067,7 @@ footer a:hover{
     display: block;
     position: fixed;
     right: -100%;
-    top: 2.4rem;
+    top: 5.1rem;
     gap: 0;
     flex-direction: column;
     width: 100%;
@@ -1044,6 +1075,7 @@ footer a:hover{
     transition: 0.3s;
     background-color: white;
     z-index: 4;
+    height: 100%;
   }
   .nav-menu.active{
     right: 0;
@@ -1094,6 +1126,13 @@ footer a:hover{
     flex-direction: column;
   }
 
+  .talent {
+    width: 100%;
+}
+  .talent-img {
+    margin-top: 2rem;
+    width: 100%;
+  }
   .talent-img img{
     width: 100%;
   }

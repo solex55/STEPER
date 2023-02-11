@@ -1,3 +1,20 @@
+.hero{
+  
+  background: linear-gradient(127.85deg, #009758 8.53%, #ffffff 93.53%);
+}
+.hero-service{
+  min-height: 100vh;
+  background-color: var(--color-primary-text);
+  padding: 1.5rem;
+  background-image: url(./assets/rec2.png);
+  filter: blur(3px) brightness(0.7);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 4rem;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 0px 0px 200px 200px;
+}
 .benefits-step {
     display: flex;
     justify-content: space-between;
@@ -89,8 +106,74 @@
       .colors:hover{
        text-decoration: underline;
       }
+
+      .pic-circle{
+        display: none;
+      }
+
+      .main-circle{
+        display: flex;
+        justify-content: center;
+      }
+
+      .circle-wrapper {
+        width:501px;
+        height:501px;
+        border-radius:51%;
+        border: 3px solid #ff8a65;
+        position:relative;
+        margin:100px;
+     }
+     
+     .circle {
+        display:block;
+        position:absolute;
+        top:51%;
+        left:51%;
+        /* width:100%;
+        height:100%; */
+        margin:-51px;
+        background:#ff8a65;
+        border-radius:20px;
+        text-align:center;
+        padding: 2rem;
+     }
+     
+   
+     .deg-45 {
+        transform:rotate(56deg) translate(185px) rotate(-56deg);
+     }
+     
+     
+     
+     .deg-135 {
+        transform:rotate(152deg) translate(354px) rotate(-152deg);
+     }
+     
+     
+     
+     .deg-225 {
+        transform:rotate(194deg) translate(331px) rotate(-194deg);
+     }
+     
+     .deg-270 {
+        transform:rotate(244deg) translate(284px) rotate(-244deg);
+     }
+     
+     .deg-315 {
+        transform:rotate(324deg) translate(140px) rotate(-324deg);
+     }
+
+
+
+
 /* mobile-screens */
 @media screen and (max-width: 768px) {    
+  .nav-menu {
+    position: fixed;
+    right: -100%;
+    top: 5.1rem;
+  }
 .benefits-step {
     display: flex;
     flex-direction: column;
@@ -115,5 +198,20 @@
   }
   .requirement-img-step img{
     width: 100%;
+  }
+
+  
+  .pic-circle{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .pic-circle img{
+    width: 100%;
+  }
+
+  .main-circle{
+    display: none;
+    justify-content: center;
   }
 }

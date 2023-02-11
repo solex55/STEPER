@@ -126,17 +126,23 @@ main{
 }
 
 /* HERO SECTION */
+.hero{
+  
+  background: linear-gradient(127.85deg, #009758 8.53%, #ffffff 93.53%);
+}  
 .hero-service{
   min-height: 100vh;
   background-color: var(--color-primary-text);
   padding: 1.5rem;
-  background-image: url(./assets/hero.png);
+  background-image: url(./assets/rec1.png);
   filter: blur(3px) brightness(0.7);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   margin-bottom: 4rem;
   font-family: 'Roboto', sans-serif;
+  border-radius: 0px 0px 200px 200px;
+
 }
 .hero-service-desc-about{
   font-weight: bold;
@@ -780,8 +786,7 @@ box-shadow: var(--dark-shadow);
 .green-text{
   color: var(--color-secondary-text);
 }
-.cv-text{
-}
+
 .need-do{
   padding-top: 5rem;
 }
@@ -842,7 +847,12 @@ padding-bottom: 6rem;
 /* CENTER ENDS */
 
 /* mobile-screens */
-@media screen and (max-width: 768px) {    
+@media screen and (max-width: 768px) {  
+  .nav-menu {
+    position: fixed;
+    right: -100%;
+    top: 5.1rem;
+  }  
   .nav-branding img{
     width: 100px;
     height: 30px;
