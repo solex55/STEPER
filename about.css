@@ -881,7 +881,6 @@ padding-bottom: 6rem;
   .nav-menu{
     position: fixed;
     right: -100%;
-    top: 2.4rem;
     gap: 0;
     flex-direction: column;
     width: 100%;
